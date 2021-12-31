@@ -22,11 +22,11 @@ function useState<S extends numOrStr>() {
 
 const newState = useState<number>();
 
-newState.setState("foo");
-console.log(newState.getState());
+// newState.setState("foo");
+// console.log(newState.getState());
 
 newState.setState(456);
 console.log(newState.getState());
 
-newState.setState("foo");
-console.log(newState.getState());
+// newState.setState("foo");
+// console.log(newState.getState());

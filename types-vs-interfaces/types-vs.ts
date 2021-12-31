@@ -2,11 +2,11 @@
 
 // definição
 type GameT = {
-  title: string;
+  title?: string;
 };
 
 type DLCT = {
-  extra: string;
+  extra?: string;
 }
 
 // intersection
@@ -36,5 +36,5 @@ type TupleT = [number, number]
 
 // Apenas uma declaração por escopo
 
-type JQueryT = { a: string };
-type JQueryT = { b: string };
+// type JQueryT = { a: string };
+// type JQueryT = { b: string };
